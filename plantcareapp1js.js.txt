@@ -1,0 +1,25 @@
+new Vue({
+        el: '#app',
+        data: {
+            plants: [],
+            newPlantName: '',
+            newWateringInterval: '',
+            newGrowth: ''
+        },
+        methods: {
+            addPlant: function () {
+                if (this.newPlantName && this.newWateringInterval && this.newGrowth) {
+                    this.plants.push({
+                        name: this.newPlantName,
+                        wateringInterval: this.newWateringInterval,
+                        growth: this.newGrowth
+                    });
+                    this.newPlantName = '';
+                    this.newWateringInterval = '';
+                    this.newGrowth = '';
+                }
+            }
+        }
+    });
+    
+

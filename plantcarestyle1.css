@@ -1,0 +1,56 @@
+body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    header {
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        padding: 1em;
+    }
+
+    #app {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    input, button {
+        margin-bottom: 10px;
+        padding: 8px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    #plantList div {
+        margin-bottom: 10px;
+    }
+
+    /* Style for the growth information */
+    #plantList div span {
+        color: #2196F3;
+        font-weight: bold;
+    }
+    
+
